@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Menbere:wght@100..700&family=Noto+Serif+Ethiopic:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+body{
+  font-family: "outfit",sans-serif;
+}
