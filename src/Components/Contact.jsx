@@ -100,7 +100,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="w-full lg:flex-1 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 sm:p-8 space-y-5"
+          className="w-full lg:flex-1 bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 sm:p-8 mb-4 space-y-5"
         >
           <div>
             <label className="block mb-1 text-sm font-medium">Full Name</label>

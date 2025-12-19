@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Icons } from "../assets";
-import logo from '/favicon.svg'
+import logo from '../assets/logow.png'
 
 const Header = () => {
   const [isOpenMobile, setIsOpenMobile] = useState(false);
@@ -61,7 +61,7 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full bg-white dark:bg-gray-900 text-black dark:text-white sticky top-0 z-50  backdrop-blur-lg border-b border-neutral-700/80">
+    <header className="w-full bg-white dark:bg-gray-900 text-black dark:text-white sticky top-0 z-50  backdrop-blur-lg shadow border-neutral-700/80">
       <nav className="flex items-center justify-between lg:justify-around p-6 gap-10 lg:gap-40">
         {/* Logo */}
         <img src={logo} className="w-10" alt="" />

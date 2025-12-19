@@ -1,12 +1,7 @@
 import React from 'react';
 import { Icons } from '../assets';
 import image from '../assets/me.JPG';
-import { Link } from 'react-router-dom';
-import About from './About';
-import Project from './Project';
-import Testimonials from './Testimonials';
-import Contact from './Contact';
-import Footer from './Footer';
+
 
 const Hero = () => {
   return (
@@ -69,11 +64,7 @@ const Hero = () => {
           <img className='rounded-full w-64 h-64 object-cover lg:h-94 lg:w-94 border-8 border-gray-100' src={image} alt="Profile" />
         </div>
       </div>
-      <About/>
-      <Project/>
-      <Testimonials/>
-      <Contact/>
-      <Footer/>
+      
     </div>
   );
 };
